@@ -7,6 +7,9 @@ const nextConfig = {
       exclude: ["log"],
     },
   },
+  experimental: {
+    appDir: true,
+  },
 };
 
 module.exports = nextConfig;
